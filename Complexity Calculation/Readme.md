@@ -7,6 +7,7 @@ The analysis of algorithms involves studying the behavior of algorithms in terms
 - **Average-case analysis:** This involves determining the average amount of resources an algorithm requires for inputs of a given size. It provides a more realistic estimate of the algorithm's performance under typical conditions.
 
 - **Best-case analysis:** This involves determining the minimum amount of resources an algorithm requires for inputs of a given size. It provides a lower bound on the algorithm's performance.
+***
 
 # *Complexity Calculation*
 
@@ -20,3 +21,26 @@ There are two main types of complexity calculations:
 
 By analyzing the complexity of algorithms, programmers can make informed decisions about which algorithm to use for a given problem based on factors such as input size, available memory, and desired performance.
 
+***
+# *Big O Notation*
+
+Big O notation is a mathematical notation used to represent the time complexity of an algorithm.
+- O(1) - Constant Time
+- O(log n) - Logarithmic Time
+- O(n) - Linear Time
+- O(n^2) - Quadratic Time
+- O(2^n) - Exponential Time
+
+
+    > ## **Constant Time Complexity**
+    - If the execution time of an algorithm is constant, it is said to have a time complexity of O(1).
+    - This means that the algorithm takes the same amount of time to run, regardless of the input size.
+    - Example: 
+        - Accessing an element in an array by index has a time complexity of O(1).
+        - Adding or removing an element from the beginning of a linked list has a time complexity of O(1).
+        - Checking if a number is even or odd has a time complexity of O(1).
+        - Finding the maximum or minimum element in an array has a time complexity of O(1).
+        - Pushing or popping an element from a stack has a time complexity of O(1).
+    
+    > ## **Linear Time Complexity**
+    - If the execution time of an algorithm is directly proportional to the input size, it is said to have a time complexity of O(n).
