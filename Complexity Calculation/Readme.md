@@ -9,7 +9,6 @@ The analysis of algorithms involves studying the behavior of algorithms in terms
 - **Best-case analysis:** This involves determining the minimum amount of resources an algorithm requires for inputs of a given size. It provides a lower bound on the algorithm's performance.
 ***
 
-
 # *Complexity Calculation*
 
 Complexity calculation refers to the analysis of the efficiency of algorithms. It involves determining how the resource requirements of an algorithm (such as time, space, or other resources) grow as the input size increases. This analysis helps in understanding and comparing the performance of different algorithms.
@@ -32,16 +31,107 @@ Big O notation is a mathematical notation used to represent the time complexity 
 - O(n^2) - Quadratic Time
 - O(2^n) - Exponential Time
 
-
-    > ## **Constant Time Complexity**
-    - If the execution time of an algorithm is constant, it is said to have a time complexity of O(1).
-    - This means that the algorithm takes the same amount of time to run, regardless of the input size.
-    - Example: 
-        - Accessing an element in an array by index has a time complexity of O(1).
-        - Adding or removing an element from the beginning of a linked list has a time complexity of O(1).
-        - Checking if a number is even or odd has a time complexity of O(1).
-        - Finding the maximum or minimum element in an array has a time complexity of O(1).
-        - Pushing or popping an element from a stack has a time complexity of O(1).
+> ## **Constant Time Complexity**
+- If the execution time of an algorithm is constant, it is said to have a time complexity of O(1).
+![alt text](images/image1.png)
+- This means that the algorithm takes the same amount of time to run, regardless of the input size.
+- Example: 
+    - Accessing an element in an array by index has a time complexity of O(1).
+    - Adding or removing an element from the beginning of a linked list has a time complexity of O(1).
+    - Checking if a number is even or odd has a time complexity of O(1).
+    - Finding the maximum or minimum element in an array has a time complexity of O(1).
+    - Pushing or popping an element from a stack has a time complexity of O(1).
     
-    > ## **Linear Time Complexity**
-    - If the execution time of an algorithm is directly proportional to the input size, it is said to have a time complexity of O(n).
+> ## **Linear Time Complexity**
+- If the execution time of an algorithm is directly proportional to the input size, it is said to have a time complexity of O(n).
+![alt text](images/image2.png)
+- This means that the algorithm's running time increases linearly with the input size.
+- Example:
+    - Linear search in an unsorted array has a time complexity of O(n).
+    - Traversing all elements in a linked list has a time complexity of O(n).
+    - Counting the number of occurrences of an element in an array has a time complexity of O(n).
+    - Finding the sum of all elements in an array has a time complexity of O(n).
+    - Copying elements from one array to another has a time complexity of O(n).
+    
+> ## **Quadratic Time Complexity**
+- If the execution time of an algorithm is proportional to the square of the input size, it is said to have a time complexity of O(n^2).
+![alt text](images/image3.png)
+- This means that the algorithm's running time increases quadratically with the input size.
+- Quadratic time complexity is common in algorithms that involve nested loops.
+- Example:
+    - Bubble sort, selection sort, and insertion sort have a time complexity of O(n^2).
+    - Checking if an array contains duplicate elements has a time complexity of O(n^2).
+    - Generating all pairs of elements in an array has a time complexity of O(n^2).
+    - Finding all possible combinations of elements in an array has a time complexity of O(n^2).
+    - Calculating the determinant of a matrix using the cofactor expansion method has a time complexity of O(n^2).  
+
+> ## **Logarithmic Time Complexity**
+- If the execution time of an algorithm grows logarithmically with the input size, it is said to have a time complexity of O(log n).
+- This means that the algorithm's running time increases slowly as the input size grows.
+- Logarithmic time complexity is common in algorithms that divide the input in half at each step.
+- Example:
+    - Binary search in a sorted array has a time complexity of O(log n).
+    - Finding the position of the most significant bit in a binary number has a time complexity of O(log n).
+    - Calculating the exponentiation of a number using the binary exponentiation method has a time complexity of O(log n).
+    - Finding the greatest common divisor of two numbers using the Euclidean algorithm has a time complexity of O(log n).
+    - Calculating the Fibonacci number at a given position using the matrix exponentiation method has a time complexity of O(log n).
+***
+  
+# Complexity Chart
+![alt text](images/image4.png)
+- O(1) and O(log n) are considered efficient time complexities.
+- O(n) is considered a moderate time complexity.
+- O(n^2) and O(2^n) are considered inefficient time complexities.
+
+
+    ## Changing the complexity from O(n^2) to O(n)
+    > ### **Two Sum Problem [O(n^2)]**
+        
+    ```python
+    def two_sum(num_list, target_value):
+    # iterate over each number in the list
+    for i in range(len(num_list)):
+        # iterate over subsequent numbers in the list
+        for j in range(i + 1, len(num_list)):
+            # check if their sum equals the target value
+            if num_list[i] + num_list[j] == target_value:
+                # return the indices of the two numbers
+                return [i, j]
+    
+    num_list = [2, 7, 11, 15]
+    target_value = 9
+        
+    result = two_sum(num_list, target_value)
+        
+    # print the result
+    print(result)
+    ```
+    ![alt text](images/image5.png)
+    
+
+    > ### **Two Sum Problem [O(n)]**
+
+    ```python
+    def two_sum(num_list, target_value):
+    dictionary = {}
+    for index, value in enumerate(num_list): 
+        # add items of num_list to dictionary
+        # value as key and index as value
+        dictionary[value] = index
+
+    for i in range(len(num_list)):
+        complement = target_value - num_list[i]
+        
+        # check if item's complement is present in dictionary
+        if complement in dictionary and dictionary[complement] != i:
+            
+            # return element index and complement's index
+            return [i, dictionary[complement]]
+    
+    num_list = [2, 7, 11, 15]
+    target_value = 9
+    
+    result = two_sum(num_list, target_value)
+    print(result) 
+    ```
+    ![alt text](images/image6.png)   
