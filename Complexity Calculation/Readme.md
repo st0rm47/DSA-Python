@@ -82,3 +82,5 @@ Big O notation is a mathematical notation used to represent the time complexity 
 - O(1) and O(log n) are considered efficient time complexities.
 - O(n) is considered a moderate time complexity.
 - O(n^2) and O(2^n) are considered inefficient time complexities.
+
+# *Big O Interpretation*
