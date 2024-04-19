@@ -84,3 +84,4 @@ Big O notation is a mathematical notation used to represent the time complexity 
 - O(n^2) and O(2^n) are considered inefficient time complexities.
 
 # *Big O Interpretation*
+![alt text](images/image7.png)
