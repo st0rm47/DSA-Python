@@ -82,6 +82,21 @@ Big O notation is a mathematical notation used to represent the time complexity 
 - O(1) and O(log n) are considered efficient time complexities.
 - O(n) is considered a moderate time complexity.
 - O(n^2) and O(2^n) are considered inefficient time complexities.
+***
+# *O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(n^3) < O(2^n) < O(n!) < O(n^n)*
 
 # *Big O Interpretation*
 ![alt text](images/image7.png)
+- Big O notation is used to describe the upper bound of an algorithm's time complexity.
+- If our code has O(n) time complexity, it means it take maximum n steps to complete the execution. 
+- But it can take less than n steps also that is log n or n/2 or n/3 etc. But it will never take more than n steps that is n^2 or n^3 or n^4 etc.
+
+# *Big Omega Notation*
+- Big Omega notation is used to describe the lower bound of an algorithm's time complexity.
+- If our code has Ω(n) time complexity, it means it take minimum n steps to complete the execution.
+- But it can take more than n steps also that is n^2 or n^3 or n^4 etc. But it will never take less than n steps that is log n or n/2 or n/3 etc.
+
+# *Big Theta Notation*
+- Big Theta notation is used to describe the tight bound of an algorithm's time complexity.
+- If our code has Θ(n) time complexity, it means it take exactly n steps to complete the execution.
+- It will never take less than n steps that is log n or n/2 or n/3 etc. and it will never take more than n steps that is n^2 or n^3 or n^4 etc.
