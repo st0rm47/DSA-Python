@@ -101,5 +101,36 @@ Big O notation is a mathematical notation used to represent the time complexity 
 - It will never take less than n steps that is log n or n/2 or n/3 etc. and it will never take more than n steps that is n^2 or n^3 or n^4 etc.
 ***
 
+# *Space Complexity*
 
+Space complexity is a measure of the amount of memory space an algorithm requires to solve a problem as a function of the input size. It is used to analyze the efficiency of an algorithm in terms of the memory space it uses.
 
+> ## **Linear Space Complexity**
+- If the amount of memory space an algorithm uses is directly proportional to the input size, it is said to have a space complexity of O(n).
+- This means that the algorithm's memory usage increases linearly with the input size.
+- Example:
+    - Storing elements in an array has a space complexity of O(n).
+    - Storing elements in a linked list has a space complexity of O(n).
+    - Storing elements in a queue or stack has a space complexity of O(n).
+    - Storing elements in a binary tree has a space complexity of O(n).
+    - Storing elements in a hash table has a space complexity of O(n).
+
+> ## **Constant Space Complexity**
+- If the amount of memory space an algorithm uses is constant, it is said to have a space complexity of O(1).
+- This means that the algorithm uses the same amount of memory space regardless of the input size.
+- Example:
+    - Storing a fixed number of variables has a space complexity of O(1).
+    - Storing a fixed number of pointers or references has a space complexity of O(1).
+    - Storing a fixed number of objects or data structures has a space complexity of O(1).
+    - Storing a fixed number of primitive data types has a space complexity of O(1).
+    - Storing a fixed number of constants or literals has a space complexity of O(1).
+
+> ## **Quadratic Space Complexity**
+- If the amount of memory space an algorithm uses is proportional to the square of the input size, it is said to have a space complexity of O(n^2).
+- This means that the algorithm's memory usage increases quadratically with the input size.
+- Example:
+    - Storing elements in a two-dimensional array has a space complexity of O(n^2).
+    - Storing elements in a matrix has a space complexity of O(n^2).
+    - Storing elements in a graph has a space complexity of O(n^2).
+    - Storing elements in a two-dimensional vector has a space complexity of O(n^2).
+    - Storing elements in a two-dimensional hash table has a space complexity of O(n^2).
