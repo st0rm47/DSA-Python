@@ -12,10 +12,15 @@
     - Algorithms are step-by-step procedures for solving problems and performing computations.
     - Some common algorithms include sorting algorithms, searching algorithms, and graph algorithms.
 ***
+<details> 
+<summary> Python Lists </summary>
 
 # *Python Lists*
 - Python lists are a type of data structure that can store multiple elements.
 - Lists are mutable, which means that their elements can be changed after they are created.
+
+    <details> 
+    <summary> List  Slicing </summary>
 
     ## *List Slicing*
     - List slicing is a way to access a subset of elements from a list.
@@ -24,6 +29,10 @@
         list = [1, 2, 3, 4, 5]
         print(list[1:4]) # Output: [2, 3, 4]
       ```
+    </details>
+
+    <details> 
+    <summary> List Method </summary>
 
     ## *List Method*
     - Python lists have many built-in methods that can be used to modify and manipulate lists.
@@ -103,4 +112,7 @@
           print(list) # Output: [4, 3, 2, 1]
         ```
 ***
+</details>
+
+
 
