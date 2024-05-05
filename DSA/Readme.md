@@ -12,8 +12,6 @@
     - Algorithms are step-by-step procedures for solving problems and performing computations.
     - Some common algorithms include sorting algorithms, searching algorithms, and graph algorithms.
 ***
-<details> 
-<summary> Python Lists </summary>
 
 # *Python Lists*
 - Python lists are a type of data structure that can store multiple elements.
