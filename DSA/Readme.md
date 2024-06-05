@@ -123,6 +123,11 @@
   ## *Bubble Sort*
   - Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
   - The algorithm continues to pass through the list until no swaps are needed, indicating that the list is sorted.
+  - Bubble sort has a time complexity of O(n^2) in the worst case.
+  - Bubble sort space complexity is O(1).
+  - Bubble sort is not a practical sorting algorithm for large lists.
+
   ![alt text](images/Bubble_Sort.png)
   ![alt text](images/Bubble_Sort2.png)
+  
   </details>
