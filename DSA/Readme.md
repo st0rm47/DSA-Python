@@ -27,6 +27,7 @@
         list = [1, 2, 3, 4, 5]
         print(list[1:4]) # Output: [2, 3, 4]
       ```
+    ***
     </details>
 
     <details> 
@@ -126,8 +127,93 @@
   - Bubble sort has a time complexity of O(n^2) in the worst case.
   - Bubble sort space complexity is O(1).
   - Bubble sort is not a practical sorting algorithm for large lists.
-
+  - *[Code](Code/Sorting/Bubble_Sort.py)*
   ![alt text](images/Bubble_Sort.png)
   ![alt text](images/Bubble_Sort2.png)
-  
+  ***
   </details>
+  
+  <details>
+  <summary> Selection Sort </summary>
+
+  ## *Selection Sort*
+  - Selection sort is a simple sorting algorithm that repeatedly selects the minimum element from an unsorted portion of the list and swaps it with the first unsorted element.
+  - The algorithm divides the list into a sorted and an unsorted portion, with the sorted portion growing from left to right.
+  - Selection sort has a time complexity of O(n^2) in the worst case.
+  - Selection sort space complexity is O(1).
+  - Selection sort is not a practical sorting algorithm for large lists.
+  - *[Code](Code/Sorting/Selection_Sort.py)*
+  ![alt text](images/Selection_Sort.png)
+  ![alt text](images/Selection_Sort2.png)
+  ***
+  </details>
+  
+  <details>
+  <summary> Insertion Sort </summary>
+
+  ## *Insertion Sort*
+  - Insertion sort is a simple sorting algorithm that works by building a sorted list one element at a time.
+  - The algorithm iterates over the list, removing one element at a time and inserting it into its correct position in the sorted portion of the list.
+  - Insertion sort has a time complexity of O(n^2) in the worst case.
+  - Insertion sort space complexity is O(1).
+  - Insertion sort is efficient for small lists or nearly sorted lists.
+  - *[Code](Code/Sorting/Insertion_Sort.py)*
+  ![alt text](images/Insertion_Sort.png)
+  ![alt text](images/Insertion_Sort2.png)
+  ***
+  </details>
+
+  <details>
+  <summary> Merge Sort </summary>
+
+  ## *Merge Sort*
+  - Merge sort is a divide-and-conquer sorting algorithm that recursively divides the list into smaller sublists, sorts the sublists, and then merges them back together.
+  - The algorithm uses a "merge" operation to combine two sorted sublists into a single sorted list.
+  - Merge sort has a time complexity of O(n log n) in the worst case.
+  - Merge sort space complexity is O(n).
+  - Merge sort is a stable sorting algorithm that is efficient for large lists.
+  - *[Code](Code/Sorting/Merge_Sort.py)*
+  ![alt text](images/Merge_Sort.png)
+  ![alt text](images/Merge_Sort2.png)
+  ![alt text](images/Merge_Sort3.png)
+  ![alt text](images/Merge_Sort4.png)
+  - ***Working of  Code***
+  ![alt text](images/Merge_Sort5.png)
+  ***
+  </details>
+
+  <details>
+  <summary> Quick Sort </summary>
+
+  ## *Quick Sort*
+  - Quick sort is a divide-and-conquer sorting algorithm that recursively divides the list into smaller sublists, sorts the sublists, and then combines them back together.
+  - The algorithm uses a "pivot" element to partition the list into two sublists, with elements less than the pivot on one side and elements greater than the pivot on the other side.
+  - Quick sort has a time complexity of O(n log n) in the average case and O(n^2) in the worst case.
+  - Quick sort space complexity is O(log n).
+  - Quick sort is an efficient sorting algorithm that deals with diverse data.
+  - *[Code](Code/Sorting/Quick_Sort.py)*
+  ![alt text](images/Quick_Sort.png)
+  ![alt text](images/Quick_Sort2.png)
+  ![alt text](images/Quick_Sort3.png)
+  ![alt text](images/Quick_Sort4.png)
+  ***
+  </details>
+
+  <details>
+  <summary> Counting Sort </summary>
+
+  ## *Counting Sort*
+  - Counting sort is a non-comparison-based sorting algorithm that works by counting the number of occurrences of each element in the list.
+  - The algorithm then uses this information to construct a sorted list.
+  - Counting sort has a time complexity of O(n + k) in the best and average cases and O(n + k) in the worst case, where k is the range of the input.
+  - Counting sort space complexity is O(n + k).
+  - Counting sort is efficient for sorting lists with a small range of integers and non-negative values.
+  - *[Code](Code/Sorting/Counting_Sort.py)*
+  ![alt text](images/Counting_Sort.png)
+  ![alt text](images/Counting_Sort2.png)
+  ![alt text](images/Counting_Sort3.png)
+  ***
+  </details>
+</details>
+
+
