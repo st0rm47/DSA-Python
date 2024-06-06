@@ -216,4 +216,38 @@
   </details>
 </details>
 
+# *Searching*
+
+- Searching is the process of finding a specific element in a list.
+- There are many different searching algorithms that can be used to search for an element in a list.
+
+  <details>
+  <summary> Linear Search </summary>
+
+  ## *Linear Search*
+  - Linear search is a simple searching algorithm that sequentially checks each element in a list until the target element is found.
+  - The algorithm has a time complexity of O(n) in the worst case, where n is the number of elements in the list.
+  - Linear search is inefficient for large lists but works well for unsorted lists.
+  - *[Code](Code/Searching/Linear_Search.py)*
+  ![alt text](images/Linear_Search.png)
+  ***
+  </details>
+
+  <details>
+  <summary> Binary Search </summary>
+
+  ## *Binary Search*
+  - Binary search is a searching algorithm that works by repeatedly dividing the list in half and comparing the target element with the middle element.
+  - The algorithm requires the list to be sorted in ascending order.
+  - Binary search has a time complexity of O(log n) in the worst case, where n is the number of elements in the list.
+  - Binary search is efficient for large lists and works well for sorted lists.
+  - *[Code](Code/Searching/Binary_Search.py)*
+  ![alt text](images/Binary_Search.png)
+  ![alt text](images/Binary_Search2.png)
+  ![alt text](images/Binary_Search3.png)
+  ***
+  </details>
+
+
+  
 
