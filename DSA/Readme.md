@@ -214,6 +214,7 @@
   ![alt text](images/Counting_Sort3.png)
   ***
   </details>
+***
 </details>
 
 # *Searching*
@@ -247,6 +248,25 @@
   ![alt text](images/Binary_Search3.png)
   ***
   </details>
+***
+
+# *Linked List*
+
+- A linked list is a data structure that consists of a sequence of elements, where each element points to the next element in the sequence.
+- Linked lists are dynamic data structures that can grow or shrink in size during program execution.
+- Every element of a linked list is called a "node" and contains two parts: data and a reference to the next node in the sequence.
+- Linked lists can be singly linked, doubly linked, or circular linked.
+
+  <details>
+  <summary> Singly Linked List </summary>
+
+  ## *Singly Linked List*
+  - A singly linked list is a type of linked list where each node points to the next node in the sequence.
+  - The last node in the list points to a null reference.
+  - Singly linked lists can be used to implement stacks, queues, and other data structures.
+  - *[Code](Code/LinkedList/Singly_Linked_List.py)*
+  ![alt text](images/Singly_Linked_List.png)
+ 
 
 
   
