@@ -267,9 +267,4 @@
   - *[Code](Code/LinkedList/Singly_Linked_List.py)*
   ![alt text](images/Singly_Linked_List.png)
  
-### *Singly Linked List Operations*
 
-- **Insertion**
-  - Insertion at the beginning of the list has a time complexity of O(1).
-  - Insertion at the end of the list has a time complexity of O(n).
-  - Insertion at a specific position has a time complexity of O(n).
