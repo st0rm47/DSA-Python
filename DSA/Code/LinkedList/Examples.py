@@ -57,20 +57,49 @@ def reverse(self):
     if self.head is None:
         return "List is empty"
     else:
-        values = [] 
+        prev_node = None
         current = self.head
         #Traverse the list
         while current is not None:
-            #Add the data to the list
-            values.append(current.data)
-            #Move to the next node
-            current = current.next
-        
+            #Store the next node
+            next_node = current.next
+            #Reverse the link
+            current.next = prev_node
+            #Move pointers one position ahead
+            prev_node = current
+            current = next_node
+        #Update the head
+        self.head = prev_node
+        #Return the reversed list
+        return self
+    
+
+#Merge two sorted linked lists
+def concatenate(self,list2):
+    if self.head is None:
+        return "List1 is empty"
+    elif list2.head is None:
+        return "List2 is empty"
+    else:
         current = self.head
-        #Traverse the list
-        while current is not None:
-            #Assign the last element to the current node
-            current.data = values.pop()
-            #Move to the next node
+        while current.next is not None:
             current = current.next
-        
+        current.next = list2.head
+        return self
+    
+
+#Middle element of a linked list
+def middleElement(self):
+    if self.head is None:
+        return "List is empty"
+    else:
+        slow_ptr = self.head
+        fast_ptr = self.head
+        #Traverse the list
+        while fast_ptr is not None and fast_ptr.next is not None:
+            #Move slow_ptr one position ahead
+            slow_ptr = slow_ptr.next
+            #Move fast_ptr two positions ahead
+            fast_ptr = fast_ptr.next.next
+        #Return the middle element
+        return slow_ptr.data
