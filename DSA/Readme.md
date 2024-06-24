@@ -268,3 +268,56 @@
   ![alt text](images/Singly_Linked_List.png)
  
 
+  ### *Singly Linked List Operations*
+  
+  - **Insertion**
+    - *[Code](Code/LinkedList/Insertion_Singly_Linked_List.py)*
+    <details>
+    <summary> Insertion at the beginning of the list </summary>
+
+    - Time Complexity: O(1)
+      ![alt text](images/Insert_Beginning.png)
+      ![alt text](images/Insert_Beginning2.png)
+    </details>
+
+    <details>
+    <summary> Insertion at the end of the list </summary>
+
+    - Time Complexity: O(n)
+      ![alt text](images/Insert_End.png)
+    </details>
+
+    <details>
+    <summary> Insertion at a specific position in the list </summary>
+
+    - Time Complexity: O(n)
+      ![alt text](images/Insert_Position.png)
+      ![alt text](images/Insert_Position2.png)
+    </details>
+
+  - **Deletion**
+    - *[Code](Code/LinkedList/Deletion_Singly_Linked_List.py)*
+    <details>
+    <summary> Deletion at the beginning of the list </summary>
+
+    - Time Complexity: O(1)
+      ![alt text](images/Delete_Beginning.png)
+    </details>
+    
+    <details>
+    <summary> Deletion at the end of the list </summary>
+
+    - Time Complexity: O(n)
+    </details>
+
+    <details>
+    <summary> Deletion at a specific position in the list </summary>
+
+    - Time Complexity: O(n)
+      ![alt text](images/Delete_Position.png)
+    </details>
+  </details>
+
+  <details>
+  <summary> Doubly Linked List </summary>
+
