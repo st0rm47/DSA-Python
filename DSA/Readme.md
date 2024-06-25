@@ -321,3 +321,8 @@
   <details>
   <summary> Doubly Linked List </summary>
 
+  ## *Doubly Linked List*
+  - A doubly linked list is a type of linked list where each node points to both the next and previous nodes in the sequence.
+  - The first node in the list points to a null reference, and the last node points to a null reference.
+  - Doubly linked lists can be used to implement stacks, queues, and other data structures.
+  - *[Code](Code/LinkedList/Doubly_Linked_List.py)*
