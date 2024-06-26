@@ -326,3 +326,5 @@
   - The first node in the list points to a null reference, and the last node points to a null reference.
   - Doubly linked lists can be used to implement stacks, queues, and other data structures.
   - *[Code](Code/LinkedList/Doubly_Linked_List.py)*
+
+  
