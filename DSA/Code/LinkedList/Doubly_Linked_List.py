@@ -47,3 +47,5 @@ linked_list = DoublyLinkedList()
 linked_list.create_doubly_linked_list()
 # print the doubly linked list
 linked_list.traverse_doubly_linked_list()
+
+#Output: 1->2->3->4->
