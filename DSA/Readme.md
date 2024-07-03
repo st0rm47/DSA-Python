@@ -326,5 +326,29 @@
   - The first node in the list points to a null reference, and the last node points to a null reference.
   - Doubly linked lists can be used to implement stacks, queues, and other data structures.
   - *[Code](Code/LinkedList/Doubly_Linked_List.py)*
+  ![alt text](images/Doubly_Linked_List.png)
 
+  ### *Doubly Linked List Operations*
+
+  - **Insertion**
+    - *[Code](Code/LinkedList/Insertion_Doubly_Linked_List.py)*
+    <details>
+    <summary> Insertion at the beginning of the list </summary>
+
+    - Time Complexity: O(1)
+      ![alt text](images/Insert_Beginning.png)
+    </details>
+
+    <details>
+    <summary> Insertion at the end of the list </summary>
+
+    - Time Complexity: O(n)
+    </details>
+
+    <details>
+    <summary> Insertion at a specific position in the list </summary>
+
+    - Time Complexity: O(n)
+      ![alt text](images/Insert_Position.png)
+    </details>
   
