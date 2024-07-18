@@ -336,19 +336,85 @@
     <summary> Insertion at the beginning of the list </summary>
 
     - Time Complexity: O(1)
-      ![alt text](images/Insert_Beginning.png)
+      ![alt text](images/Insert_Beginning_Doubly.png)
+      ![alt text](images/Insert_Beginning_Doubly2.png)
     </details>
 
     <details>
     <summary> Insertion at the end of the list </summary>
 
     - Time Complexity: O(n)
+      ![alt text](images/Insert_End_Doubly.png)
+      ![alt text](images/Insert_End_Doubly2.png)
     </details>
 
     <details>
     <summary> Insertion at a specific position in the list </summary>
 
     - Time Complexity: O(n)
-      ![alt text](images/Insert_Position.png)
+      ![alt text](images/Insert_Position_Doubly.png)
+      ![alt text](images/Insert_Position_Doubly2.png)
     </details>
   
+  - **Deletion**
+    - *[Code](Code/LinkedList/Deletion_Doubly_Linked_List.py)*
+    <details>
+    <summary> Deletion at the beginning of the list </summary>
+
+    - Time Complexity: O(1)
+      ![alt text](images/Delete_Beginning_Doubly.png)
+    </details>
+
+    <details>
+    <summary> Deletion at the end of the list </summary>
+
+    - Time Complexity: O(n)
+      ![alt text](images/Delete_End_Doubly.png)
+    </details>
+
+    <details>
+    <summary> Deletion at a specific position in the list </summary>
+
+    - Time Complexity: O(n)
+      ![alt text](images/Delete_Position_Doubly.png)
+      ![alt text](images/Delete_Position_Doubly2.png)
+    </details>
+
+  </details>
+
+  <details>
+  <summary> Circular Linked List </summary>
+  
+  ## *Circular Linked List*
+  - A circular linked list is a type of linked list where the last node points back to the first node in the sequence.
+  - Circular linked lists can be used to implement circular buffers, scheduling algorithms, and other data structures.
+  - *[Code](Code/LinkedList/Circular_Linked_List.py)*
+  ![alt text](images/Circular_Linked_List.png)
+
+  ### *Circular Linked List Operations*
+
+  - **Insertion**
+    - *[Code](Code/LinkedList/Insertion_Circular_Linked_List.py)*
+    <details>
+    <summary> Insertion at the beginning of the list </summary>
+
+    - Time Complexity: O(1)
+      ![alt text](images/Insert_Beginning_Circular.png)
+      ![alt text](images/Insert_Beginning_Circular2.png)
+    </details>
+
+    <details>
+    <summary> Insertion at the end of the list </summary>
+
+    - Time Complexity: O(n)
+      ![alt text](images/Insert_End_Circular.png)
+      ![alt text](images/Insert_End_Circular2.png)
+    </details>
+
+    <details>
+    <summary> Insertion at a specific position in the list </summary>
+
+    - Time Complexity: O(n)
+      ![alt text](images/Insert_Position_Circular.png)
+      ![alt text](images/Insert_Position_Circular2.png)
+    </details>
