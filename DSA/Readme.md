@@ -400,7 +400,6 @@
 
     - Time Complexity: O(1)
       ![alt text](images/Insert_Beginning_Circular.png)
-      ![alt text](images/Insert_Beginning_Circular2.png)
     </details>
 
     <details>
@@ -408,7 +407,6 @@
 
     - Time Complexity: O(n)
       ![alt text](images/Insert_End_Circular.png)
-      ![alt text](images/Insert_End_Circular2.png)
     </details>
 
     <details>
@@ -418,3 +416,30 @@
       ![alt text](images/Insert_Position_Circular.png)
       ![alt text](images/Insert_Position_Circular2.png)
     </details>
+
+  - **Deletion**
+    - *[Code](Code/LinkedList/Deletion_Circular_Linked_List.py)*
+    <details>
+    <summary> Deletion at the beginning of the list </summary>
+
+    - Time Complexity: O(1)
+      ![alt text](images/Delete_Beginning_Circular.png)
+      ![alt text](images/Delete_Beginning_Circular2.png)
+    </details>
+
+    <details>
+    <summary> Deletion at the end of the list </summary>
+
+    - Time Complexity: O(n)
+      <!-- ![alt text](images/Delete_End_Circular.png) -->
+    </details>
+
+    <details>
+    <summary> Deletion at a specific position in the list </summary>
+
+    - Time Complexity: O(n)
+      ![alt text](images/Delete_Position_Circular.png)
+      ![alt text](images/Delete_Position_Circular2.png)
+    </details>
+  </details>
+***
