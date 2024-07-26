@@ -449,3 +449,6 @@
 - A stack is a data structure that stores elements in a last-in, first-out (LIFO) order.
 - Stacks can be implemented using arrays or linked lists.
 - Stacks are used in many applications, such as function call management, expression evaluation, and backtracking algorithms.
+- All stack operations have a time complexity of O(1).
+
+  
