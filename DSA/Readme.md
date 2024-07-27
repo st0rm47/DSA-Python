@@ -451,4 +451,31 @@
 - Stacks are used in many applications, such as function call management, expression evaluation, and backtracking algorithms.
 - All stack operations have a time complexity of O(1).
 
+## *Stack Operations*
+
+- **Push**
+  - The `push()` operation adds an element to the top of the stack.
+  - *[Code](Code/Stack/Stack.py)*
+
+- **Pop**
+  - The `pop()` operation removes and returns the element at the top of the stack.
+  - *[Code](Code/Stack/Stack.py)*
+
+- **Peek**
+  - The `peek()` operation returns the element at the top of the stack without removing it.
+  - *[Code](Code/Stack/Stack.py)*
+
+- **isEmpty**
+
+- **isFull**
+  - The `isFull()` operation checks if the stack is full.
+  - *[Code](Code/Stack/Stack.py)*
+
+- **Size**
+  - The `size()` operation returns the number of elements in the stack.
+  - *[Code](Code/Stack/Stack.py)*
+***           
+
+
+
   
