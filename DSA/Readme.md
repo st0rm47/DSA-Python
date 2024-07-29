@@ -478,4 +478,10 @@
 
 
 
-  
+# *Queue*
+
+- A queue is a data structure that stores elements in a first-in, first-out (FIFO) order.
+- Queues can be implemented using arrays or linked lists.
+- Queues are used in many applications, such as task scheduling, breadth-first search, and printer spooling.
+- All queue operations have a time complexity of O(1).
+
