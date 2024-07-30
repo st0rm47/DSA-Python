@@ -451,8 +451,10 @@
 - Stacks are used in many applications, such as function call management, expression evaluation, and backtracking algorithms.
 - All stack operations have a time complexity of O(1).
 
-## *Stack Operations*
+<details>
+<summary>Stack Operations</summary>
 
+## *Stack Operations*
 - **Push**
   - The `push()` operation adds an element to the top of the stack.
   - *[Code](Code/Stack/Stack.py)*
@@ -475,7 +477,7 @@
   - The `size()` operation returns the number of elements in the stack.
   - *[Code](Code/Stack/Stack.py)*
 ***           
-
+</details>
 
 
 # *Queue*
