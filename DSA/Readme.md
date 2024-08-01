@@ -475,10 +475,9 @@
 
 - **Size**
   - The `size()` operation returns the number of elements in the stack.
-  - *[Code](Code/Stack/Stack.py)*
-***           
+  - *[Code](Code/Stack/Stack.py)*   
 </details>
-
+***
 
 # *Queue*
 
