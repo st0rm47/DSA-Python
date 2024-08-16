@@ -451,33 +451,27 @@
 - Stacks are used in many applications, such as function call management, expression evaluation, and backtracking algorithms.
 - All stack operations have a time complexity of O(1).
 
-<details>
-<summary>Stack Operations</summary>
+  <details>
+  <summary>Stack Operations</summary>
 
-## *Stack Operations*
-- **Push**
-  - The `push()` operation adds an element to the top of the stack.
-  - *[Code](Code/Stack/Stack.py)*
+  ## *Stack Operations*
+  - **Push**
+    - The `push()` operation adds an element to the top of the stack.
+    
 
-- **Pop**
-  - The `pop()` operation removes and returns the element at the top of the stack.
-  - *[Code](Code/Stack/Stack.py)*
+  - **Pop**
+    - The `pop()` operation removes and returns the element at the top of the stack.
 
-- **Peek**
-  - The `peek()` operation returns the element at the top of the stack without removing it.
-  - *[Code](Code/Stack/Stack.py)*
+  - **Peek**
+    - The `peek()` operation returns the element at the top of the stack without removing it.
 
-- **isEmpty**
+  - **isFull**
+    - The `isFull()` operation checks if the stack is full.
 
-- **isFull**
-  - The `isFull()` operation checks if the stack is full.
-  - *[Code](Code/Stack/Stack.py)*
-
-- **Size**
-  - The `size()` operation returns the number of elements in the stack.
-  - *[Code](Code/Stack/Stack.py)*   
-</details>
-***
+  - **Size**
+    - The `size()` operation returns the number of elements in the stack. 
+  </details>
+--- 
 
 # *Queue*
 
@@ -486,3 +480,53 @@
 - Queues are used in many applications, such as task scheduling, breadth-first search, and printer spooling.
 - All queue operations have a time complexity of O(1).
 
+  <details>
+  <summary>Queue Operations</summary>
+
+  ## *Queue Operations*
+  - **Enqueue**
+    - The `enqueue()` operation adds an element to the back of the queue.
+    
+  - **Dequeue**
+    - The `dequeue()` operation removes and returns the element at the front of the queue.
+
+  - **Peek**
+    - The `peek()` operation returns the element at the front of the queue without removing it.
+
+  - **isEmpty**
+    - The `isEmpty()` operation checks if the queue is empty.
+
+  - **Size**
+    - The `size()` operation returns the number of elements in the queue. 
+  </details>
+
+---
+
+# *Circular Queue*
+
+- A circular queue is a data structure that stores elements in a circular order.
+- Circular queues can be implemented using arrays or linked lists.
+- Circular queues are used in many applications, such as CPU scheduling, memory management, and disk scheduling.
+
+  <details>
+  <summary>Circular Queue Operations</summary>
+
+  ## *Circular Queue Operations*
+  - **Enqueue**
+    - The `enqueue()` operation adds an element to the back of the queue.
+    
+  - **Dequeue**
+    - The `dequeue()` operation removes and returns the element at the front of the queue.
+
+  - **Peek**
+    - The `peek()` operation returns the element at the front of the queue without removing it.
+
+  - **isFull**
+    - The `isFull()` operation checks if the queue is full.
+
+  - **isEmpty**
+    - The `isEmpty()` operation checks if the queue is empty.
+
+  - **Size**
+    - The `size()` operation returns the number of elements in the queue. 
+  </details>
