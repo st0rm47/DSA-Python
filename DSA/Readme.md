@@ -530,3 +530,46 @@
   - **Size**
     - The `size()` operation returns the number of elements in the queue. 
   </details>
+---
+
+# *Hashing*
+
+- Hashing is the process of transforming a key into a hash value using a hash function.
+- Hashing is used to store and retrieve data in a data structure called a hash table.
+- Hash tables are used in many applications, such as database indexing, caching, and password storage.
+
+  <details>
+  <summary>Hash Function</summary>
+
+  ## *Hash Function*
+  - A hash function is a function that takes an input (or "key") and returns a fixed-size value (or "hash value").
+  - Hash functions are used to map keys to hash values in a hash table.
+  - A good hash function should be deterministic, efficient, and distribute keys evenly across the hash table.
+  </details>
+
+  <details>
+  <summary>Hash Table</summary>
+
+  ## *Hash Table*
+  - A hash table is a data structure that stores key-value pairs in an array.
+  - Hash tables use a hash function to map keys to hash values, which are used to index the array.
+  - Hash tables are used to implement associative arrays, sets, and other data structures.
+
+  ### *Hash Table Operations*
+  
+  - **Insert**
+    - The `insert()` operation adds a key-value pair to the hash table.
+
+  - **Search**
+    - The `search()` operation retrieves the value associated with a key in the hash table.
+  
+  - **Delete**
+    - The `delete()` operation removes a key-value pair from the hash table.
+
+  </details>
+
+  <details>
+  <summary> Hashing Techniques </summary>
+
+  ## *Hashing Techniques*
+  
