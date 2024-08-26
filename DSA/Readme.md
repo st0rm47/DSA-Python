@@ -537,6 +537,7 @@
 - Hashing is the process of transforming a key into a hash value using a hash function.
 - Hashing is used to store and retrieve data in a data structure called a hash table.
 - Hash tables are used in many applications, such as database indexing, caching, and password storage.
+- *[Code](Code/Hashing/Hashing.py)*
 
   <details>
   <summary>Hash Function</summary>
@@ -545,8 +546,8 @@
   - A hash function is a function that takes an input (or "key") and returns a fixed-size value (or "hash value").
   - Hash functions are used to map keys to hash values in a hash table.
   - A good hash function should be deterministic, efficient, and distribute keys evenly across the hash table.
+  ---
   </details>
-
   <details>
   <summary>Hash Table</summary>
 
@@ -565,11 +566,53 @@
   
   - **Delete**
     - The `delete()` operation removes a key-value pair from the hash table.
-
+  ---
   </details>
 
   <details>
-  <summary> Hashing Techniques </summary>
+  <summary>Hashing Collision</summary>  
 
-  ## *Hashing Techniques*
+  ## *Hashing Collision*
+  - Hashing collision occurs when two or more keys map to the same hash value in a hash table.
+  - Collision resolution techniques are used to handle collisions and ensure that keys are stored and retrieved correctly.
+
+  ### *Collision Resolution Techniques*
+
+  - **Chaining**
+    - Chaining is a collision resolution technique that uses linked lists to store key-value pairs with the same hash value.
+    - Chaining has a time complexity of O(1) for insert, search, and delete operations.
+    - Chaining is efficient for large hash tables and handles collisions well.
+    - *[Code](Code/Hashing/Chaining.py)*
+    ![alt text](images/Chaining.png)
+    ![alt text](images/Chaining2.png)
+  
+  - **Linear Probing**
+    - Linear probing is an open addressing technique that resolves collisions by searching for the next available slot in the hash table.
+    - Linear probing has a time complexity of O(1) for insert and search operations and O(n) for delete operations.
+    - Linear probing is efficient for small hash tables but may lead to clustering.
+    - *[Code](Code/Hashing/Linear_Probing.py)*
+    ![alt text](images/Linear_Probing.png)
+    ![alt text](images/Linear_Probing2.png)
+  
+  - **Quadratic Probing**
+    - Quadratic probing is an open addressing technique that resolves collisions by using a quadratic function to search for the next available slot in the hash table.
+    - Quadratic probing has a time complexity of O(1) for insert and search operations and O(n) for delete operations.
+    - Quadratic probing is efficient for small hash tables but may lead to clustering.
+    - *[Code](Code/Hashing/Quadratic_Probing.py)*
+
+  - **Double Hashing**  
+    - Double hashing is an open addressing technique that resolves collisions by using a second hash function to search for the next available slot in the hash table.
+    - Double hashing has a time complexity of O(1) for insert and search operations and O(n) for delete operations.
+    - Double hashing is efficient for small hash tables and avoids clustering.
+    - *[Code](Code/Hashing/Double_Hashing.py)*
+
+  - **Rehashing**
+    - Rehashing is a technique that increases the size of the hash table and rehashes all key-value pairs when the load factor exceeds a certain threshold.
+    - Rehashing reduces the likelihood of collisions and improves the performance of the hash table.
+    - *[Code](Code/Hashing/Rehashing.py)*
+    ![alt text](images/Rehashing.png)
+  
+  ---
+  </details>
+---
   
