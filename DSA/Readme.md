@@ -578,6 +578,9 @@
 
   ### *Collision Resolution Techniques*
 
+  <details>
+  <summary>Chaining</summary>
+
   - **Chaining**
     - Chaining is a collision resolution technique that uses linked lists to store key-value pairs with the same hash value.
     - Chaining has a time complexity of O(1) for insert, search, and delete operations.
@@ -585,7 +588,11 @@
     - *[Code](Code/Hashing/Chaining.py)*
     ![alt text](images/Chaining.png)
     ![alt text](images/Chaining2.png)
-  
+  </details>
+
+  <details>
+  <summary>Linear Probing</summary>
+
   - **Linear Probing**
     - Linear probing is an open addressing technique that resolves collisions by searching for the next available slot in the hash table.
     - Linear probing has a time complexity of O(1) for insert and search operations and O(n) for delete operations.
@@ -593,26 +600,71 @@
     - *[Code](Code/Hashing/Linear_Probing.py)*
     ![alt text](images/Linear_Probing.png)
     ![alt text](images/Linear_Probing2.png)
+  </details>
+
+  <details>
+  <summary>Quadratic Probing</summary>
   
   - **Quadratic Probing**
     - Quadratic probing is an open addressing technique that resolves collisions by using a quadratic function to search for the next available slot in the hash table.
     - Quadratic probing has a time complexity of O(1) for insert and search operations and O(n) for delete operations.
     - Quadratic probing is efficient for small hash tables but may lead to clustering.
     - *[Code](Code/Hashing/Quadratic_Probing.py)*
+  </details>
+
+  <details>
+  <summary>Double Hashing</summary>  
 
   - **Double Hashing**  
     - Double hashing is an open addressing technique that resolves collisions by using a second hash function to search for the next available slot in the hash table.
     - Double hashing has a time complexity of O(1) for insert and search operations and O(n) for delete operations.
     - Double hashing is efficient for small hash tables and avoids clustering.
     - *[Code](Code/Hashing/Double_Hashing.py)*
+  </details>
+
+  <details>
+  <summary>Rehashing</summary>
 
   - **Rehashing**
     - Rehashing is a technique that increases the size of the hash table and rehashes all key-value pairs when the load factor exceeds a certain threshold.
     - Rehashing reduces the likelihood of collisions and improves the performance of the hash table.
     - *[Code](Code/Hashing/Rehashing.py)*
     ![alt text](images/Rehashing.png)
+  </details>
   
   ---
   </details>
 ---
+
+# *String Matching Algorithms*
+
+- String matching algorithms are used to find the occurrence of a pattern within a text.
+- There are many different string matching algorithms that can be used to search for a pattern in a text.
+
+  <details>
+  <summary>Brute Force Algorithm</summary>
+
+  ## *Brute Force Algorithm*
+  - The brute force algorithm is a simple string matching algorithm that compares the pattern with substrings of the text.
+  - The algorithm slides the pattern over the text one character at a time and checks for a match.
+  - The brute force algorithm has a time complexity of O(mn) in the worst case, where m is the length of the pattern and n is the length of the text.
+  - The brute force algorithm is inefficient for large texts and patterns.
+  - *[Code](Code/String_Matching/Brute_Force.py)*
+  ![alt text](images/Brute_Force.png)
+  ![alt text](images/Brute_Force2.png)
+  ![alt text](images/Brute_Force3.png)
+  ---
+  </details>
+
+  <details>
+  <summary>Rabin-Karp Algorithm</summary>
+
+  ## *Rabin-Karp Algorithm*
+  - The Rabin-Karp algorithm is a string matching algorithm that uses hashing to compare the pattern with substrings of the text.
+  - The algorithm computes the hash value of the pattern and compares it with the hash value of substrings of the text.
+  - The Rabin-Karp algorithm has a time complexity of O(mn) in the worst case, where m is the length of the pattern and n is the length of the text.
+  - The Rabin-Karp algorithm is efficient for large texts and patterns.
+  - *[Code](Code/String_Matching/Rabin_Karp.py)*
   
+
+
