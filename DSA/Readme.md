@@ -668,3 +668,24 @@
   
 
 
+***
+
+# *Tree*
+- A tree is a non linear data structure that consists of nodes connected by edges.
+- Trees are used to represent hierarchical relationships between elements.
+- Relationships between nodes in a tree are defined by parent-child relationships.
+- The top node in a tree is called the root node, and nodes without children are called leaf nodes.
+![alt text](images/Tree.png)
+- Trees can be used to implement binary search trees, expression trees, and other data structures.
+- *Depth of a  Node*
+  - The depth of a node is the number of edges from the root to the node.
+  ![alt text](images/Depth_Tree.png)
+- *Height of a Node*
+  - The height of a node is the number of edges on the longest path from the node to a leaf.
+  ![alt text](images/Height_Tree.png)
+- *Degree of a Node*
+  - The degree of a node is the number of children of the node.
+  ![alt text](images/Degree_Tree.png)
+- *Level of a Node*
+  - The level of a node is the depth of the node.
+  ![alt text](images/Level_Tree.png)
