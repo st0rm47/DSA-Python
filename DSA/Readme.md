@@ -689,3 +689,4 @@
 - *Level of a Node*
   - The level of a node is the depth of the node.
   ![alt text](images/Level_Tree.png)
+
