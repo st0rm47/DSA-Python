@@ -36,11 +36,20 @@ def build_tree():
     
     return root
 
-def print_tree(root):
-    print(root.data)
+def get_level(root, level):
+    if root is None:
+        return
+    if level == 0:
+        print(root.data)
+        return 
     for child in root.children:
-        print_tree(child)
+        get_level(child, level-1)
+
         
 root = build_tree()
-print_tree(root)
+for i in range(3):
+    print(f"Level {i}")
+    get_level(root, i)
+    print()
+
 
