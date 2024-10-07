@@ -677,16 +677,92 @@
 - The top node in a tree is called the root node, and nodes without children are called leaf nodes.
 ![alt text](images/Tree.png)
 - Trees can be used to implement binary search trees, expression trees, and other data structures.
-- *Depth of a  Node*
+<details>
+<summary> Depth of a Node </summary>
+
+## *Depth of a  Node*
   - The depth of a node is the number of edges from the root to the node.
   ![alt text](images/Depth_Tree.png)
-- *Height of a Node*
-  - The height of a node is the number of edges on the longest path from the node to a leaf.
+</details>
+
+<details>
+<summary> Height of a Node </summary>
+
+## *Height of a Node*
+- The height of a node is the number of edges on the longest path from the node to a leaf.
   ![alt text](images/Height_Tree.png)
-- *Degree of a Node*
+</details>
+
+<details>
+<summary> Degree of a Node </summary>
+
+## *Degree of a Node*
   - The degree of a node is the number of children of the node.
   ![alt text](images/Degree_Tree.png)
-- *Level of a Node*
+</details>
+
+<details>
+<summary> Level of a Node </summary>
+
+## *Level of a Node*
   - The level of a node is the depth of the node.
   ![alt text](images/Level_Tree.png)
+</details>
+
+***
+
+# *Tree Traversal*
+- Tree traversal is the process of visiting all the nodes in a tree in a specific order.
+- There are three main types of tree traversal: in-order, pre-order, and post-order.
+- Tree traversal can be implemented using recursion or iteration.
+
+  <details>
+  <summary> Pre-Order Traversal </summary>
+
+  ### *Pre-Order Traversal*
+  - In pre-order traversal, the root node is visited first, followed by the left subtree and then the right subtree.
+  - Pre-order traversal is used to create a copy of the tree and prefix expressions.
+  - *[Code](Code/Trees/Traversal.py)*
+  ![alt text](images/Pre_Order_Traversal.png)
+  ---
+  </details>
+
+  <details>
+  <summary> Post-Order Traversal </summary>
+
+  ### *Post-Order Traversal*
+  - In post-order traversal, the left subtree is visited first, followed by the right subtree and then the root node.
+  - Post-order traversal is used to delete the tree and postfix expressions.
+  - *[Code](Code/Trees/Traversal.py)*
+  ![alt text](images/Post_Order_Traversal.png)
+  ---
+  </details>
+
+  <details>
+  <summary> In-Order Traversal </summary>
+
+  ### *In-Order Traversal*
+  - In in-order traversal, the left subtree is visited first, followed by the root node and then the right subtree.
+  - In-order traversal is used to get elements in non-decreasing order and infix expressions.
+  - *[Code](Code/Trees/Traversal.py)*
+  ---
+  </details>
+  
+  <details>
+  <summary> Level-Order Traversal </summary>
+
+  ### *Level-Order Traversal*
+  - In level-order traversal, nodes are visited level by level, starting from the root node.
+  - Level-order traversal is used to print the tree level by level.
+  - *[Code](Code/Trees/Traversal.py)*
+  ![alt text](images/Breadth_First_Traversal.png)
+  ---
+  </details>
+
+  ***
+
+  
+
+
+
 
