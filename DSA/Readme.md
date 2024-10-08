@@ -671,6 +671,7 @@
 ***
 
 # *Tree*
+
 - A tree is a non linear data structure that consists of nodes connected by edges.
 - Trees are used to represent hierarchical relationships between elements.
 - Relationships between nodes in a tree are defined by parent-child relationships.
@@ -761,8 +762,20 @@
 
   ***
 
-  
+# *Binary Tree*
+- A binary tree is a tree data structure in which each node has at most two children, referred to as the left child and the right child.
+- Binary trees can be used to implement binary search trees, expression trees, and other data structures.
+- For level d, the maximum number of nodes is 2^d and the minimum number of nodes is d+1.
+- For height h, the maximum number of nodes is 2^(h+1) - 1 and the minimum number of nodes is h+1.
+- *[Code](Code/Trees/BinaryTree/Binary_Tree.py)*
+![alt text](images/Binary_Tree.png)
 
+<details>
+<summary> Binary Tree Traversal </summary>
 
-
+## *Binary Tree Traversal*
+- Binary tree traversal is the process of visiting all the nodes in a binary tree in a specific order.
+- There are same as tree traversal: in-order, pre-order, post-order, and level-order.
+- *[Code](Code/Trees/BinaryTree/Traversal.py)*
+</details>
 
