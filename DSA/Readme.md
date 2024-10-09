@@ -710,8 +710,9 @@
   ![alt text](images/Level_Tree.png)
 </details>
 
+***
 
-## *Tree Traversal*
+# *Tree Traversal*
 - Tree traversal is the process of visiting all the nodes in a tree in a specific order.
 - There are three main types of tree traversal: in-order, pre-order, and post-order.
 - Tree traversal can be implemented using recursion or iteration.
@@ -774,7 +775,19 @@
 - Binary tree traversal is the process of visiting all the nodes in a binary tree in a specific order.
 - There are same as tree traversal: in-order, pre-order, post-order, and level-order.
 - *[Code](Code/Trees/BinaryTree/Traversal.py)*
+</details>
 
-***
+## *Types of Binary Trees*
+- There are many different types of binary trees that have specific properties and characteristics.
+- Some common types of binary trees include full binary trees, complete binary trees, perfect binary trees, and balanced binary trees.
 
-# *Expression Tree*
+<details>
+<summary> Full Binary Tree </summary>
+
+### *Full Binary Tree*
+- A full binary tree is a binary tree in which each node has either zero or two children.
+- Full binary trees are also known as proper binary trees.
+- For height h, the maximum number of nodes is 2^(h+1) - 1, and the minimum number of nodes is h+1.
+- Similarly, the maximum number of leaf nodes is 2^h, and the minimum number of leaf nodes is h+1
+- *[Code](Code/Trees/BinaryTree/Full_Binary_Tree.py)* 
+![alt text](images/Full_Binary_Tree.png)
