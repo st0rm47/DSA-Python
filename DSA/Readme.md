@@ -710,9 +710,8 @@
   ![alt text](images/Level_Tree.png)
 </details>
 
-***
 
-# *Tree Traversal*
+## *Tree Traversal*
 - Tree traversal is the process of visiting all the nodes in a tree in a specific order.
 - There are three main types of tree traversal: in-order, pre-order, and post-order.
 - Tree traversal can be implemented using recursion or iteration.
@@ -770,12 +769,12 @@
 - *[Code](Code/Trees/BinaryTree/Binary_Tree.py)*
 ![alt text](images/Binary_Tree.png)
 
-<details>
-<summary> Binary Tree Traversal </summary>
 
 ## *Binary Tree Traversal*
 - Binary tree traversal is the process of visiting all the nodes in a binary tree in a specific order.
 - There are same as tree traversal: in-order, pre-order, post-order, and level-order.
 - *[Code](Code/Trees/BinaryTree/Traversal.py)*
-</details>
 
+***
+
+# *Expression Tree*
