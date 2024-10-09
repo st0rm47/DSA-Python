@@ -775,7 +775,7 @@
 - Binary tree traversal is the process of visiting all the nodes in a binary tree in a specific order.
 - There are same as tree traversal: in-order, pre-order, post-order, and level-order.
 - *[Code](Code/Trees/BinaryTree/Traversal.py)*
-</details>
+
 
 ## *Types of Binary Trees*
 - There are many different types of binary trees that have specific properties and characteristics.
@@ -791,3 +791,30 @@
 - Similarly, the maximum number of leaf nodes is 2^h, and the minimum number of leaf nodes is h+1
 - *[Code](Code/Trees/BinaryTree/Full_Binary_Tree.py)* 
 ![alt text](images/Full_Binary_Tree.png)
+</details>
+
+<details>
+<summary> Complete Binary Tree </summary>
+
+### *Complete Binary Tree*
+- A complete binary tree is a binary tree in which all levels are completely filled except possibly for the last level, which is filled from left to right.
+- Complete binary trees are used in heap data structures and priority queues.
+- For height h, the maximum number of nodes is 2^h, and the minimum number of nodes is 2^(h-1).
+- *[Code](Code/Trees/BinaryTree/Complete_Binary_Tree.py)*
+![alt text](images/Complete_Binary_Tree.png)
+</details>
+
+<details>
+<summary> Perfect Binary Tree </summary>
+
+### *Perfect Binary Tree*
+- A perfect binary tree is a binary tree in which all levels are completely filled, and all leaf nodes are at the same level.
+- Perfect binary trees have 2^h leaf nodes, where h is the height of the tree.
+- Perfect binary trees are used in heap data structures and priority queues.
+- *[Code](Code/Trees/BinaryTree/Perfect_Binary_Tree.py)*
+![alt text](images/Perfect_Binary_Tree.png)
+</details>
+
+***
+
+# *Huffman Coding*
