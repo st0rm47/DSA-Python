@@ -31,10 +31,9 @@ class min_heap:
     
     # maintains the heap property by comparing the key with its parent and swapping them if the key is smaller than the parent
     def heapify_up(self, i):
-        parent = self.parent(i)
-        while i != 0 and self.heap[parent] > self.heap[i]:
-            self.swap(i, parent)
-            i = parent
+        while i != 0 and self.heap[self.parent(i)] > self.heap[i]:
+            self.swap(i, self.parent(i))
+            i = self.parent(i)
     
         """
         - The insert here adds the key to the end of the heap and then calls the heapify_up function to maintain the heap property.
