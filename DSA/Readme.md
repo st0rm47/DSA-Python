@@ -817,4 +817,196 @@
 
 ***
 
+## *Binary Search Tree*
+- A binary search tree (BST) is a binary tree in which each node has a key and satisfies the binary search tree property.
+- Binary search trees can be used to implement efficient search, insert, and delete operations.
+
+<details>
+<summary> Binary Search Tree Property </summary>
+
+### *Binary Search Tree Property*
+- The binary search tree property states that for every parent node:
+  - The key of the left child is less than the key of the parent node.
+  - The key of the right child is greater than the key of the parent node.
+  - The binary search tree property holds for all nodes in the tree.
+  ![alt text](images/Binary_Search_Tree.png)
+</details>
+
+<details>
+<summary> Binary Search Tree Operations </summary>
+
+### *Binary Search Tree Operations*
+
+- **Search**
+  - The `search()` operation searches for a key in the binary search tree.
+  - The time complexity of the search operation is O(h), where h is the height of the tree.
+  - *[Code](Code/Trees/BinarySearchTree/BST.py)*
+
+- **Insert**
+  - The `insert()` operation inserts a key into the binary search tree.
+  - The time complexity of the insert operation is O(h), where h is the height of the tree.
+  - *[Code](Code/Trees/BinarySearchTree/BST.py)*
+
+- **Delete**
+  - The `delete()` operation deletes a key from the binary search tree.
+  - The time complexity of the delete operation is O(h), where h is the height of the tree.
+  - *[Code](Code/Trees/BinarySearchTree/BST.py)*
+</details>
+
+***
+
 # *Huffman Coding*
+- Huffman coding is a lossless data compression algorithm that uses variable-length codes to represent characters in a text.
+- Huffman coding is used in file compression, data transmission, and other applications.
+- Huffman coding is based on the frequency of characters in the text.
+- *[Code](Code/Huffman_Coding/Huffman_Coding.py)*
+***
+
+# *Heaps*
+- A heap is a binary tree data structure that satisfies the heap property.
+- Heaps can be used to implement priority queues, heap sort, and other data structures.
+- For any node i, the parent node is at index (i-1)//2, the left child node is at index 2i+1, and the right child node is at index 2i+2.
+- There are two main types of heaps: min heaps and max heaps.
+
+<details>
+<summary> Max Heap </summary>
+
+## *Max Heap*
+- A max heap is a binary tree data structure in which the value of each parent node is greater than or equal to the values of its children.
+- The root node of a max heap contains the maximum value in the heap.
+- *[Code](Code/Heaps/Max_Heap.py)*
+![alt text](images/Max_Heap.png)
+</details>
+
+<details>
+<summary> Min Heap </summary>
+
+## *Min Heap*
+- A min heap is a binary tree data structure in which the value of each parent node is less than or equal to the values of its children.
+- The root node of a min heap contains the minimum value in the heap.
+- *[Code](Code/Heaps/Min_Heap.py)*
+![alt text](images/Min_Heap.png)
+</details>
+
+<details>
+<summary> Heap Sort </summary>
+
+## *Heap Sort*
+- Heap sort is a comparison-based sorting algorithm that uses a binary heap data structure to sort elements in ascending order.
+- The algorithm builds a max or min heap from the input list and repeatedly extracts the root node to create a sorted list.
+- Heap sort has a time complexity of O(n log n) in the worst case.
+- *[Code](Code/Heaps/Heap_Sort.py)*
+![alt text](images/Heap_Sort.png)
+</details>
+
+<details>
+<summary> Priority Queue </summary>
+
+## *Priority Queue*
+- A priority queue is a data structure that stores elements in a priority order.
+- Priority queues can be implemented using heaps to efficiently insert and remove elements based on their priority.
+- Priority queues are used in many applications, such as task scheduling, Dijkstra's algorithm, and Huffman coding.
+- *[Code](Code/Heaps/Priority_Queue.py)*
+</details>
+
+***
+
+# *Graph*
+- A graph is a collection of nodes (vertices) and edges that connect pairs of nodes.
+- Graphs can be used to represent relationships between elements in a network.
+- Mathematically, a graph G is defined as a pair (V, E), where V is a set of vertices and E is a set of edges.
+![alt text](images/Graph.png)
+
+<details>
+<summary> Graph Terminology </summary>
+
+## *Graph Terminology*
+- **Edge**
+  - An edge is a connection between two vertices in a graph.
+  - The edge can be directed or undirected, weighted or unweighted.
+  - Directed edges have a direction, while undirected edges do not.
+  - Weighted edges have a weight, while unweighted edges do not.
+
+- **Vertex**
+  - A vertex is a node in a graph.
+  - Vertices can be connected by edges to form a graph.
+
+- **Degree**
+  - The degree of a vertex is the number of edges incident to the vertex.
+  - In a directed graph, the in-degree is the number of incoming edges, and the out-degree is the number of outgoing edges.
+
+- **Path**
+  - A path is a sequence of vertices connected by edges.
+  - The length of a path is the number of edges in the path.
+
+- **Cycle**
+  - A cycle is a path that starts and ends at the same vertex.
+  - A graph with no cycles is called an acyclic graph.
+</details>
+
+<details>
+<summary> Graph Representation </summary>
+
+## *Graph Representation* 
+- Graphs can be represented using 
+    - Adjacency matrices
+    - Adjacency lists.
+
+  ### *Adjacency Matrix*
+  - An adjacency matrix is a 2D array that stores the edges between vertices in a graph.
+  - It is a matrix of zeros and ones, where a one indicates an edge between two vertices.
+  - For a graph G = (V, E) with n vertices, the adjacency matrix is an n x n matrix given by:
+    - A[i][j] = 1 if there is an edge between vertices i and j.
+    - A[i][j] = 0 if there is no edge between vertices i and j.
+  - *[Code](Code/Graphs/Adjacency_Matrix.py)*
+  ![alt text](images/Adjacency_Matrix.png)
+
+  ### *Adjacency List*
+  - An adjacency list is a collection of linked lists that stores the neighbors of each vertex in a graph.
+  - Each vertex has a list of adjacent vertices that it is connected to.
+  - For a graph G = (V, E) with n vertices, the adjacency list is a list of n linked lists.
+  - *[Code](Code/Graphs/Adjacency_List.py)*
+  ![alt text](images/Adjacency_List.png)
+  ![alt text](images/Adjacency_List2.png)
+</details>
+
+<details>
+<summary> Graph Traversal </summary>
+
+## *Graph Traversal*
+- Graph traversal is the process of visiting all the vertices in a graph in a specific order.
+- There are two main types of graph traversal: depth-first search (DFS) and breadth-first search (BFS).
+
+  ### *Depth-First Search (DFS)*
+  - Depth-first search is a graph traversal algorithm that explores as far as possible along each branch before backtracking.
+  - DFS uses a stack to keep track of vertices to visit.
+  - DFS is used to find connected components, topological sorting, and other applications.
+  - Time Complexity: O(V + E), where V is the number of vertices and E is the number of edges.
+  - *[Code](Code/Graphs/DFS.py)*
+  ![alt text](images/DFS.png)
+
+  ### *Breadth-First Search (BFS)*
+  - Breadth-first search is a graph traversal algorithm that explores all the vertices at the current depth before moving to the next depth.
+  - BFS uses a queue to keep track of vertices to visit.
+  - BFS is used to find the shortest path, connected components, and other applications.
+  - Time Complexity: O(V + E), where V is the number of vertices and E is the number of edges.
+  - *[Code](Code/Graphs/BFS.py)*
+  ![alt text](images/BFS.png)
+  ![alt text](images/BFS2.png)
+</details>
+
+<details>
+<summary> Graph Algorithms </summary>
+
+## *Graph Algorithms*
+- Graph Algorithms are used to solve problems on graphs, such as finding the shortest path, detecting cycles, and finding connected components.
+
+  <details>
+  <summary> Topological Sorting </summary>
+  ### *Topological Sorting*
+  - Topological sorting is used to order the vertices in a directed acyclic graph (DAG) such that for every directed edge uv, vertex u comes before vertex v in the ordering.
+  - Topological sorting is used in task scheduling, job sequencing, and other applications.
+  - Time Complexity: O(V + E) where V is the number of vertices and E is the number of edges.
+  - *[Code](Code/Graphs/Topological_Sorting.py)*
+  ![alt text](images/Topological_Sorting.png)
+
