@@ -44,7 +44,7 @@
           list.append(4)
           print(list) # Output: [1, 2, 3, 4]
         ```
-    
+      ---
       ### *List Extend*
       - The `extend()` method adds the elements of one list to the end of another list.
       - ```python
@@ -53,7 +53,7 @@
           list1.extend(list2)
           print(list1) # Output: [1, 2, 3, 4, 5, 6]
         ```
-      
+      ---
       ### *List Pop*
       - The `pop()` method removes and returns the element at a specified index.
       - ```python
@@ -62,7 +62,7 @@
           print(element) # Output: 3
           print(list) # Output: [1, 2, 4]
         ```
-      
+      ---
       ### *List Insert*
       - The `insert()` method inserts an element at a specified index.
       - ```python
@@ -70,7 +70,7 @@
           list.insert(2, 5)
           print(list) # Output: [1, 2, 5, 3, 4]
         ```
-      
+      ---
       ### *List Remove*
       - The `remove()` method removes the first occurrence of a specified element from a list.
       - ```python
@@ -78,7 +78,7 @@
           list.remove(3)
           print(list) # Output: [1, 2, 4, 3]
         ```
-      
+      ---
       ### *List Index*
       - The `index()` method returns the index of the first occurrence of a specified element in a list.
       - ```python
@@ -86,7 +86,7 @@
           index = list.index(3)
           print(index) # Output: 2
         ```
-
+      ---
       ### *List Count*
       - The `count()` method returns the number of occurrences of a specified element in a list.
       - ```python
@@ -94,7 +94,7 @@
           count = list.count(3)
           print(count) # Output: 2
         ```
-      
+      ---
       ### *List Sort*
       - The `sort()` method sorts the elements of a list in ascending order.
       - ```python
@@ -102,7 +102,7 @@
           list.sort()
           print(list) # Output: [1, 1, 2, 3, 4, 5, 5, 6, 9]
         ```
-      
+      ---
       ### *List Reverse*
       - The `reverse()` method reverses the order of the elements in a list.
       - ```python
@@ -294,7 +294,7 @@
       ![alt text](images/Insert_Position.png)
       ![alt text](images/Insert_Position2.png)
     </details>
-
+  ---
   - **Deletion**
     - *[Code](Code/LinkedList/Deletion_Singly_Linked_List.py)*
     <details>
@@ -355,7 +355,7 @@
       ![alt text](images/Insert_Position_Doubly.png)
       ![alt text](images/Insert_Position_Doubly2.png)
     </details>
-  
+  ---
   - **Deletion**
     - *[Code](Code/LinkedList/Deletion_Doubly_Linked_List.py)*
     <details>
@@ -416,7 +416,7 @@
       ![alt text](images/Insert_Position_Circular.png)
       ![alt text](images/Insert_Position_Circular2.png)
     </details>
-
+  ---
   - **Deletion**
     - *[Code](Code/LinkedList/Deletion_Circular_Linked_List.py)*
     <details>
@@ -671,19 +671,20 @@
 ***
 
 # *Tree*
-
 - A tree is a non linear data structure that consists of nodes connected by edges.
 - Trees are used to represent hierarchical relationships between elements.
 - Relationships between nodes in a tree are defined by parent-child relationships.
 - The top node in a tree is called the root node, and nodes without children are called leaf nodes.
 ![alt text](images/Tree.png)
 - Trees can be used to implement binary search trees, expression trees, and other data structures.
+
 <details>
 <summary> Depth of a Node </summary>
 
 ## *Depth of a  Node*
   - The depth of a node is the number of edges from the root to the node.
   ![alt text](images/Depth_Tree.png)
+---
 </details>
 
 <details>
@@ -692,6 +693,7 @@
 ## *Height of a Node*
 - The height of a node is the number of edges on the longest path from the node to a leaf.
   ![alt text](images/Height_Tree.png)
+---
 </details>
 
 <details>
@@ -700,6 +702,7 @@
 ## *Degree of a Node*
   - The degree of a node is the number of children of the node.
   ![alt text](images/Degree_Tree.png)
+---
 </details>
 
 <details>
@@ -708,11 +711,14 @@
 ## *Level of a Node*
   - The level of a node is the depth of the node.
   ![alt text](images/Level_Tree.png)
+  ---
 </details>
 
-***
 
-# *Tree Traversal*
+<details>
+<summary> Tree Traversal </summary>
+
+## *Tree Traversal*
 - Tree traversal is the process of visiting all the nodes in a tree in a specific order.
 - There are three main types of tree traversal: in-order, pre-order, and post-order.
 - Tree traversal can be implemented using recursion or iteration.
@@ -759,10 +765,13 @@
   ![alt text](images/Breadth_First_Traversal.png)
   ---
   </details>
+---
+</details>
 
-  ***
+<details>
+<summary> Binary Tree </summary>
 
-# *Binary Tree*
+## *Binary Tree*
 - A binary tree is a tree data structure in which each node has at most two children, referred to as the left child and the right child.
 - Binary trees can be used to implement binary search trees, expression trees, and other data structures.
 - For level d, the maximum number of nodes is 2^d and the minimum number of nodes is d+1.
@@ -770,90 +779,105 @@
 - *[Code](Code/Trees/BinaryTree/Binary_Tree.py)*
 ![alt text](images/Binary_Tree.png)
 
+  <details>
+  <summary> Binary Tree Traversal </summary>
 
-## *Binary Tree Traversal*
-- Binary tree traversal is the process of visiting all the nodes in a binary tree in a specific order.
-- There are same as tree traversal: in-order, pre-order, post-order, and level-order.
-- *[Code](Code/Trees/BinaryTree/Traversal.py)*
+  ### *Binary Tree Traversal*
+  - Binary tree traversal is the process of visiting all the nodes in a binary tree in a specific order.
+  - There are same as tree traversal: in-order, pre-order, post-order, and level-order.
+  - *[Code](Code/Trees/BinaryTree/Traversal.py)*
+  ---
+  </details>
 
+  <details>
+  <summary> Types of Binary Trees </summary>
 
-## *Types of Binary Trees*
-- There are many different types of binary trees that have specific properties and characteristics.
-- Some common types of binary trees include full binary trees, complete binary trees, perfect binary trees, and balanced binary trees.
+  ### *Types of Binary Trees*
+  - There are many different types of binary trees that have specific properties and characteristics.
+  - Some common types of binary trees include full binary trees, complete binary trees, perfect binary trees, and balanced binary trees.
 
-<details>
-<summary> Full Binary Tree </summary>
+  <details>
+  <summary> Full Binary Tree </summary>
 
-### *Full Binary Tree*
-- A full binary tree is a binary tree in which each node has either zero or two children.
-- Full binary trees are also known as proper binary trees.
-- For height h, the maximum number of nodes is 2^(h+1) - 1, and the minimum number of nodes is h+1.
-- Similarly, the maximum number of leaf nodes is 2^h, and the minimum number of leaf nodes is h+1
-- *[Code](Code/Trees/BinaryTree/Full_Binary_Tree.py)* 
-![alt text](images/Full_Binary_Tree.png)
+  ### *Full Binary Tree*
+  - A full binary tree is a binary tree in which each node has either zero or two children.
+  - Full binary trees are also known as proper binary trees.
+  - For height h, the maximum number of nodes is 2^(h+1) - 1, and the minimum number of nodes is h+1.
+  - Similarly, the maximum number of leaf nodes is 2^h, and the minimum number of leaf nodes is h+1
+  - *[Code](Code/Trees/BinaryTree/Full_Binary_Tree.py)* 
+  ![alt text](images/Full_Binary_Tree.png)
+  ---
+  </details>
+
+  <details>
+  <summary> Complete Binary Tree </summary>
+
+  ### *Complete Binary Tree*
+  - A complete binary tree is a binary tree in which all levels are completely filled except possibly for the last level, which is filled from left to right.
+  - Complete binary trees are used in heap data structures and priority queues.
+  - For height h, the maximum number of nodes is 2^h, and the minimum number of nodes is 2^(h-1).
+  - *[Code](Code/Trees/BinaryTree/Complete_Binary_Tree.py)*
+  ![alt text](images/Complete_Binary_Tree.png)
+  ---
+  </details>
+
+  <details>
+  <summary> Perfect Binary Tree </summary>
+
+  ### *Perfect Binary Tree*
+  - A perfect binary tree is a binary tree in which all levels are completely filled, and all leaf nodes are at the same level.
+  - Perfect binary trees have 2^h leaf nodes, where h is the height of the tree.
+  - Perfect binary trees are used in heap data structures and priority queues.
+  - *[Code](Code/Trees/BinaryTree/Perfect_Binary_Tree.py)*
+  ![alt text](images/Perfect_Binary_Tree.png)
+  ---
+  </details>
+---
 </details>
 
 <details>
-<summary> Complete Binary Tree </summary>
-
-### *Complete Binary Tree*
-- A complete binary tree is a binary tree in which all levels are completely filled except possibly for the last level, which is filled from left to right.
-- Complete binary trees are used in heap data structures and priority queues.
-- For height h, the maximum number of nodes is 2^h, and the minimum number of nodes is 2^(h-1).
-- *[Code](Code/Trees/BinaryTree/Complete_Binary_Tree.py)*
-![alt text](images/Complete_Binary_Tree.png)
-</details>
-
-<details>
-<summary> Perfect Binary Tree </summary>
-
-### *Perfect Binary Tree*
-- A perfect binary tree is a binary tree in which all levels are completely filled, and all leaf nodes are at the same level.
-- Perfect binary trees have 2^h leaf nodes, where h is the height of the tree.
-- Perfect binary trees are used in heap data structures and priority queues.
-- *[Code](Code/Trees/BinaryTree/Perfect_Binary_Tree.py)*
-![alt text](images/Perfect_Binary_Tree.png)
-</details>
-
-***
+<summary> Binary Search Tree </summary>
 
 ## *Binary Search Tree*
 - A binary search tree (BST) is a binary tree in which each node has a key and satisfies the binary search tree property.
 - Binary search trees can be used to implement efficient search, insert, and delete operations.
 
-<details>
-<summary> Binary Search Tree Property </summary>
+  <details>
+  <summary> Binary Search Tree Property </summary>
 
-### *Binary Search Tree Property*
-- The binary search tree property states that for every parent node:
-  - The key of the left child is less than the key of the parent node.
-  - The key of the right child is greater than the key of the parent node.
-  - The binary search tree property holds for all nodes in the tree.
-  ![alt text](images/Binary_Search_Tree.png)
+  ### *Binary Search Tree Property*
+  - The binary search tree property states that for every parent node:
+    - The key of the left child is less than the key of the parent node.
+    - The key of the right child is greater than the key of the parent node.
+    - The binary search tree property holds for all nodes in the tree.
+    ![alt text](images/Binary_Search_Tree.png)
+  ---
+  </details>
+
+  <details>
+  <summary> Binary Search Tree Operations </summary>
+
+  ### *Binary Search Tree Operations*
+
+  - **Search**
+    - The `search()` operation searches for a key in the binary search tree.
+    - The time complexity of the search operation is O(h), where h is the height of the tree.
+    - *[Code](Code/Trees/BinarySearchTree/BST.py)*
+
+  - **Insert**
+    - The `insert()` operation inserts a key into the binary search tree.
+    - The time complexity of the insert operation is O(h), where h is the height of the tree.
+    - *[Code](Code/Trees/BinarySearchTree/BST.py)*
+
+  - **Delete**
+    - The `delete()` operation deletes a key from the binary search tree.
+    - The time complexity of the delete operation is O(h), where h is the height of the tree.
+    - *[Code](Code/Trees/BinarySearchTree/BST.py)*
+  </details>
+---
 </details>
 
-<details>
-<summary> Binary Search Tree Operations </summary>
-
-### *Binary Search Tree Operations*
-
-- **Search**
-  - The `search()` operation searches for a key in the binary search tree.
-  - The time complexity of the search operation is O(h), where h is the height of the tree.
-  - *[Code](Code/Trees/BinarySearchTree/BST.py)*
-
-- **Insert**
-  - The `insert()` operation inserts a key into the binary search tree.
-  - The time complexity of the insert operation is O(h), where h is the height of the tree.
-  - *[Code](Code/Trees/BinarySearchTree/BST.py)*
-
-- **Delete**
-  - The `delete()` operation deletes a key from the binary search tree.
-  - The time complexity of the delete operation is O(h), where h is the height of the tree.
-  - *[Code](Code/Trees/BinarySearchTree/BST.py)*
-</details>
-
-***
+---
 
 # *Huffman Coding*
 - Huffman coding is a lossless data compression algorithm that uses variable-length codes to represent characters in a text.
@@ -949,8 +973,9 @@
 
 ## *Graph Representation* 
 - Graphs can be represented using 
-    - Adjacency matrices
-    - Adjacency lists.
+
+  <details>
+  <summary> Adjacency Matrix </summary>
 
   ### *Adjacency Matrix*
   - An adjacency matrix is a 2D array that stores the edges between vertices in a graph.
@@ -960,6 +985,10 @@
     - A[i][j] = 0 if there is no edge between vertices i and j.
   - *[Code](Code/Graphs/Adjacency_Matrix.py)*
   ![alt text](images/Adjacency_Matrix.png)
+  </details>
+
+  <details>
+  <summary> Adjacency List </summary>
 
   ### *Adjacency List*
   - An adjacency list is a collection of linked lists that stores the neighbors of each vertex in a graph.
@@ -968,7 +997,9 @@
   - *[Code](Code/Graphs/Adjacency_List.py)*
   ![alt text](images/Adjacency_List.png)
   ![alt text](images/Adjacency_List2.png)
-</details>
+  </details>
+</details>  
+
 
 <details>
 <summary> Graph Traversal </summary>
@@ -977,6 +1008,9 @@
 - Graph traversal is the process of visiting all the vertices in a graph in a specific order.
 - There are two main types of graph traversal: depth-first search (DFS) and breadth-first search (BFS).
 
+  <details>
+  <summary> Depth-First Search (DFS) </summary>
+
   ### *Depth-First Search (DFS)*
   - Depth-first search is a graph traversal algorithm that explores as far as possible along each branch before backtracking.
   - DFS uses a stack to keep track of vertices to visit.
@@ -984,6 +1018,10 @@
   - Time Complexity: O(V + E), where V is the number of vertices and E is the number of edges.
   - *[Code](Code/Graphs/DFS.py)*
   ![alt text](images/DFS.png)
+  </details>
+
+  <details>
+  <summary> Breadth-First Search (BFS) </summary>
 
   ### *Breadth-First Search (BFS)*
   - Breadth-first search is a graph traversal algorithm that explores all the vertices at the current depth before moving to the next depth.
@@ -993,6 +1031,7 @@
   - *[Code](Code/Graphs/BFS.py)*
   ![alt text](images/BFS.png)
   ![alt text](images/BFS2.png)
+  </details>
 </details>
 
 <details>
@@ -1003,10 +1042,71 @@
 
   <details>
   <summary> Topological Sorting </summary>
+
   ### *Topological Sorting*
   - Topological sorting is used to order the vertices in a directed acyclic graph (DAG) such that for every directed edge uv, vertex u comes before vertex v in the ordering.
   - Topological sorting is used in task scheduling, job sequencing, and other applications.
   - Time Complexity: O(V + E) where V is the number of vertices and E is the number of edges.
   - *[Code](Code/Graphs/Topological_Sorting.py)*
   ![alt text](images/Topological_Sorting.png)
+  ![alt text](images/Topological_Sorting2.png)
+  </details>
 
+  <details>
+  <summary> Dijkstra's Algorithm </summary>
+
+  ### *Dijkstra's Algorithm*
+  - Dijkstra's algorithm is used to find the shortest path from a source vertex to all other vertices in a weighted graph.
+  - Dijkstra's algorithm uses a priority queue to keep track of the vertices to visit.
+  - Dijkstra's algorithm works for graphs with non-negative edge weights.
+  - Time Complexity: O(V log V + E) where V is the number of vertices and E is the number of edges.
+  - *[Code](Code/Graphs/Dijkstra.py)*
+  ![alt text](images/Dijkstra.png)
+  ![alt text](images/Dijkstra2.png)
+  </details>
+
+  <details>
+  <summary> Bellman-Ford Algorithm </summary>
+
+  ### *Bellman-Ford Algorithm*
+  - Bellman-Ford algorithm is used to find the shortest path from a source vertex to all other vertices in a weighted graph.
+  - Bellman-Ford algorithm works for graphs with negative edge weights and detects negative cycles.
+  - Bellman-Ford algorithm uses dynamic programming to find the shortest path.
+  - Time Complexity: O(V * E) where V is the number of vertices and E is the number of edges.
+  - *[Code](Code/Graphs/Bellman_Ford.py)*
+  </details>
+
+  <details>
+  <summary> Ford Fulkerson Algorithm </summary>
+
+  ### *Ford Fulkerson Algorithm*
+  - Ford Fulkerson algorithm is used to find the maximum flow in a flow network.
+  - Ford Fulkerson algorithm uses the residual graph to find augmenting paths.
+  - Ford Fulkerson algorithm works for graphs with capacities on edges.
+  - Time Complexity: O(C * E) where C is the maximum flow and E is the number of edges.
+  - *[Code](Code/Graphs/Ford_Fulkerson.py)*
+  </details>
+  
+  <details>
+  <summary> Kruskal's Algorithm </summary>
+
+  ### *Kruskal's Algorithm*
+  - Kruskal's algorithm is used to find the minimum spanning tree of a connected, undirected graph.
+  - Kruskal's algorithm uses a greedy approach to find the minimum spanning tree in a weighted graph with positive edge weights.
+  - Kruskal's algorithm works by adding edges in increasing order of weight until all vertices are connected.
+  - Time Complexity: O(E log E) where E is the number of edges.
+  - *[Code](Code/Graphs/Kruskal.py)*
+  ![alt text](images/Kruskal.png)
+  ![alt text](images/Kruskal2.png)
+  </details>
+
+  <details>
+  <summary> Prim's Algorithm </summary>
+
+  ### *Prim's Algorithm*
+  - Prim's algorithm is used to find the minimum spanning tree of a connected, undirected graph.
+  - Prim's algorithm uses a greedy approach to find the minimum spanning tree in a weighted graph with positive edge weights.
+  - Prim's algorithm works by adding vertices in increasing order of weight until all vertices are connected.
+  - Time Complexity: O(V^2) where V is the number of vertices.
+  - *[Code](Code/Graphs/Prim.py)*
+  </details>
