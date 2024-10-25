@@ -214,6 +214,50 @@
   ![alt text](images/Counting_Sort3.png)
   ***
   </details>
+
+  <details>
+  <summary> Radix Sort </summary>
+
+  ## *Radix Sort*
+  - Radix sort is a non-comparison-based sorting algorithm that works by sorting elements based on their individual digits.
+  - The algorithm sorts the elements by processing the digits from the least significant digit to the most significant digit.
+  - Radix sort has a time complexity of O(nk) in the best and average cases and O(nk) in the worst case, where k is the number of digits in the input.
+  - Radix sort space complexity is O(n + k).
+  - Radix sort is efficient for sorting lists of integers with a fixed number of digits.
+  - *[Code](Code/Sorting/Radix_Sort.py)*
+  ![alt text](images/Radix_Sort1.png)
+  ![alt text](images/Radix_Sort2.png)
+  ![alt text](images/Radix_Sort3.png)
+  ***
+  </details>
+
+  <details>
+  <summary> Bucket Sort </summary>
+
+  ## *Bucket Sort*
+  - Bucket sort is a sorting algorithm that divides the list into a number of buckets, each of which is then sorted individually.
+  - The sorted buckets are then concatenated to produce the final sorted list.
+  - Bucket sort has a time complexity of O(n^2) in the worst case and O(n + k) in the average case, where k is the number of buckets.
+  - Bucket sort space complexity is O(n + k).
+  - Bucket sort is efficient for sorting lists with a uniform distribution of elements.
+  - *[Code](Code/Sorting/Bucket_Sort.py)*
+  ![alt text](images/Bucket_Sort.png)
+  ***
+  </details>
+
+  <details>
+  <summary> Shell Sort </summary>
+
+  ## *Shell Sort*
+  - Shell sort is a sorting algorithm that works by comparing elements that are a certain distance apart and then reducing the distance between elements to be compared.
+  - The algorithm uses a sequence of gap values to determine the distance between elements.
+  - Shell sort has a time complexity of O(n) in the best case and O(n∗(log(n)) ^2 in the worst case.
+  - Shell sort space complexity is O(1).
+  - Shell sort is an efficient sorting algorithm for small lists.
+  - *[Code](Code/Sorting/Shell_Sort.py)*
+     ![alt text](images/Shell_Sort.png)
+  ***
+  </details>
 ***
 </details>
 
@@ -832,6 +876,7 @@
   ![alt text](images/Perfect_Binary_Tree.png)
   ---
   </details>
+
 ---
 </details>
 
@@ -950,23 +995,29 @@
   - The edge can be directed or undirected, weighted or unweighted.
   - Directed edges have a direction, while undirected edges do not.
   - Weighted edges have a weight, while unweighted edges do not.
+  ---
 
 - **Vertex**
   - A vertex is a node in a graph.
   - Vertices can be connected by edges to form a graph.
+  ---
 
 - **Degree**
   - The degree of a vertex is the number of edges incident to the vertex.
   - In a directed graph, the in-degree is the number of incoming edges, and the out-degree is the number of outgoing edges.
+  ---
 
 - **Path**
   - A path is a sequence of vertices connected by edges.
   - The length of a path is the number of edges in the path.
+  ---
 
 - **Cycle**
   - A cycle is a path that starts and ends at the same vertex.
   - A graph with no cycles is called an acyclic graph.
+---
 </details>
+
 
 <details>
 <summary> Graph Representation </summary>
@@ -985,6 +1036,7 @@
     - A[i][j] = 0 if there is no edge between vertices i and j.
   - *[Code](Code/Graphs/Adjacency_Matrix.py)*
   ![alt text](images/Adjacency_Matrix.png)
+  ---
   </details>
 
   <details>
@@ -997,7 +1049,9 @@
   - *[Code](Code/Graphs/Adjacency_List.py)*
   ![alt text](images/Adjacency_List.png)
   ![alt text](images/Adjacency_List2.png)
+  ---
   </details>
+---
 </details>  
 
 
@@ -1018,6 +1072,7 @@
   - Time Complexity: O(V + E), where V is the number of vertices and E is the number of edges.
   - *[Code](Code/Graphs/DFS.py)*
   ![alt text](images/DFS.png)
+  ---
   </details>
 
   <details>
@@ -1031,7 +1086,9 @@
   - *[Code](Code/Graphs/BFS.py)*
   ![alt text](images/BFS.png)
   ![alt text](images/BFS2.png)
+  ---
   </details>
+---
 </details>
 
 <details>
@@ -1050,6 +1107,7 @@
   - *[Code](Code/Graphs/Topological_Sorting.py)*
   ![alt text](images/Topological_Sorting.png)
   ![alt text](images/Topological_Sorting2.png)
+  ---
   </details>
 
   <details>
@@ -1063,6 +1121,7 @@
   - *[Code](Code/Graphs/Dijkstra.py)*
   ![alt text](images/Dijkstra.png)
   ![alt text](images/Dijkstra2.png)
+  ---
   </details>
 
   <details>
@@ -1074,6 +1133,7 @@
   - Bellman-Ford algorithm uses dynamic programming to find the shortest path.
   - Time Complexity: O(V * E) where V is the number of vertices and E is the number of edges.
   - *[Code](Code/Graphs/Bellman_Ford.py)*
+  ---
   </details>
 
   <details>
@@ -1085,6 +1145,7 @@
   - Ford Fulkerson algorithm works for graphs with capacities on edges.
   - Time Complexity: O(C * E) where C is the maximum flow and E is the number of edges.
   - *[Code](Code/Graphs/Ford_Fulkerson.py)*
+  ---
   </details>
   
   <details>
@@ -1098,6 +1159,7 @@
   - *[Code](Code/Graphs/Kruskal.py)*
   ![alt text](images/Kruskal.png)
   ![alt text](images/Kruskal2.png)
+  ---
   </details>
 
   <details>
@@ -1109,4 +1171,78 @@
   - Prim's algorithm works by adding vertices in increasing order of weight until all vertices are connected.
   - Time Complexity: O(V^2) where V is the number of vertices.
   - *[Code](Code/Graphs/Prim.py)*
+  ---
   </details>
+</details>
+
+---
+
+# *Balanced Binary Tree*
+- A balanced binary tree is a binary tree in which the height of the left and right subtrees of any node differ by at most one.
+- Balanced binary trees are used in AVL trees, red-black trees, and other self-balancing trees.
+- Balanced binary trees have a height of O(log n), where n is the number of nodes in the tree.
+- Balancing factors are used to determine the balance of a binary tree.
+- *Balancing factors =  height of left subtree - height of right subtree*
+- *[Code](Code/Trees/BinaryTree/Balanced_Binary_Tree.py)*
+![alt text](images/Balanced_Binary_Trees.png)
+
+
+## *Rotations*
+- Rotations are used to balance binary trees by changing the structure of the tree.
+- There are two main types of rotations: left rotations and right rotations.
+- Rotations are used in AVL trees, red-black trees, and other self-balancing trees.
+  
+<details>
+<summary> Right Rotation </summary>
+
+### *Right Rotation*
+- A right rotation is used to balance a binary tree by rotating the nodes to the right.
+- They are used mainly on trees having Left-Left (LL) unbalanced patterns.
+![alt text](images/Right_Rotation.png)
+---
+</details>
+
+<details>
+<summary> Left Rotation </summary>
+
+### *Left Rotation*
+- A left rotation is used to balance a binary tree by rotating the nodes to the left.
+- They are used mainly on trees having Right-Right (RR) unbalanced patterns.
+![alt text](images/Left_Rotation.png)
+---
+</details>
+
+<details>
+<summary> Left-Right Rotation </summary>
+
+### *Left-Right Rotation*
+- A left-right rotation is used to balance a binary tree by rotating the nodes to the left and then to the right.
+- They are used mainly on trees having Left-Right (LR) unbalanced patterns.
+![alt text](images/Left_Right_Rotation.png)
+--- 
+</details>
+
+<details>
+<summary> Right-Left Rotation </summary>
+
+### *Right-Left Rotation*
+- A right-left rotation is used to balance a binary tree by rotating the nodes to the right and then to the left.
+- They are used mainly on trees having Right-Left (RL) unbalanced patterns.
+![alt text](images/Right_Left_Rotation.png)
+---
+</details>
+
+---
+</details>
+
+# *AVL Tree*
+- An AVL tree is a self-balancing binary search tree in which the height of the left and right subtrees of any node differ by at most one.
+- AVL trees are used to maintain the balance of binary search trees during insertions and deletions.
+- AVL trees have a height of O(log n), where n is the number of nodes in the tree.
+- AVL trees use rotations to balance the tree and maintain the AVL property.
+- *[Code](Code/Trees/BinaryTree/AVL_Tree.py)*
+![alt text](images/AVL_Tree.png)
+
+---
+
+# *Red-Black Tree*
