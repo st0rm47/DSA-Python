@@ -1180,7 +1180,6 @@
 # *Balanced Binary Tree*
 - A balanced binary tree is a binary tree in which the height of the left and right subtrees of any node differ by at most one.
 - Balanced binary trees are used in AVL trees, red-black trees, and other self-balancing trees.
-- Balanced binary trees have a height of O(log n), where n is the number of nodes in the tree.
 - Balancing factors are used to determine the balance of a binary tree.
 - *Balancing factors =  height of left subtree - height of right subtree*
 - *[Code](Code/Trees/BinaryTree/Balanced_Binary_Tree.py)*
@@ -1238,11 +1237,8 @@
 # *AVL Tree*
 - An AVL tree is a self-balancing binary search tree in which the height of the left and right subtrees of any node differ by at most one.
 - AVL trees are used to maintain the balance of binary search trees during insertions and deletions.
-- AVL trees have a height of O(log n), where n is the number of nodes in the tree.
 - AVL trees use rotations to balance the tree and maintain the AVL property.
 - *[Code](Code/Trees/BinaryTree/AVL_Tree.py)*
 ![alt text](images/AVL_Tree.png)
 
 ---
-
-# *Red-Black Tree*
