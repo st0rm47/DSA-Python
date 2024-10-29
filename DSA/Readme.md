@@ -708,7 +708,22 @@
   - The algorithm computes the hash value of the pattern and compares it with the hash value of substrings of the text.
   - The Rabin-Karp algorithm has a time complexity of O(mn) in the worst case, where m is the length of the pattern and n is the length of the text.
   - The Rabin-Karp algorithm is efficient for large texts and patterns.
+  - > *Note: The Rabin- Karp Algorithm can give false positives, so it is important to verify the match by comparing the pattern with the substring.*
   - *[Code](Code/String_Matching/Rabin_Karp.py)*
+  ![alt text](images/Rabin_Karp1.png)
+  ![alt text](images/Rabin_Karp2.png)
+  ![alt text](images/Rabin_Karp3.png)
+  ![alt text](images/Rabin_Karp4.png)
+  *The match is found. But the process continues till the last character*
+  ![alt text](images/Rabin_Karp5.png)
+  ---
+  </details>
+
+  <details>
+  <summary>KMP Algorithm</summary>
+
+  ## *KMP Algorithm*
+  
   
 
 
@@ -1183,7 +1198,7 @@
 - Balancing factors are used to determine the balance of a binary tree.
 - *Balancing factors =  height of left subtree - height of right subtree*
 - *[Code](Code/Trees/BinaryTree/Balanced_Binary_Tree.py)*
-![alt text](images/Balanced_Binary_Trees.png)
+![alt text](images/Balanced_Binary_Tree.png)
 
 
 ## *Rotations*
