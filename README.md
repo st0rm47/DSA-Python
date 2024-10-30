@@ -4,9 +4,9 @@ This repository contains my journey and work in Data Structures and Algorithms, 
 
 
 ## Table of Contents
-1. [Complexity Analysis](ComplexityCalculation\Readme.md)
-2. [Recursion](Recursion\Readme.md)
-3. [DSA](DSA\Readme.md)
+1. [Complexity Analysis](ComplexityCalculation)
+2. [Recursion](Recursion)
+3. [DSA](DSA)
 
 
 ## Future Work
