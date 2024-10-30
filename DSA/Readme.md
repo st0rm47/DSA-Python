@@ -723,9 +723,14 @@
   <summary>KMP Algorithm</summary>
 
   ## *KMP Algorithm*
-  
-  
-
+  - The Knuth-Morris-Pratt (KMP) algorithm is a string matching algorithm that uses a precomputed table to skip characters in the text.
+  - The algorithm preprocesses the pattern to create a "failure function" that indicates how many characters to skip when a mismatch occurs.
+  - The KMP algorithm has a time complexity of O(m + n) in the worst case, where m is the length of the pattern and n is the length of the text.
+  - The KMP algorithm is efficient for large texts and patterns.
+  - *[Code](Code/String_Matching/KMP.py)*
+  ![alt text](images/KMP.png)
+  ---
+  </details>
 
 ***
 
